@@ -4,14 +4,22 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" href="/style.css" />
+    <title>Random Dogs</title>
   </head>
   <body>
     <main>
-      <div id="app"></div>
       <script type="module" src="/main.js"></script>
-      <p id="getDogs">Click to get a random dog</p>
-      <img id="dogImage" alt="Random Dog" style="display: none" />
+      <div class="container">
+        <button id="getDogs" class="getDogsButton" style="margin: auto">
+          Generate dog
+        </button>
+        <img
+          id="dogImage"
+          alt="Random Dog"
+          style="display: none; cursor: pointer"
+        />
+      </div>
     </main>
   </body>
 </html>
