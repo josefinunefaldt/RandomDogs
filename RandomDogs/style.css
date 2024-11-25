@@ -107,20 +107,26 @@ button:focus-visible {
   display: flex; flex-direction: row; width: 100vw
 }
 #getDogs{
-  margin: auto
+  margin: auto;
 }
 
 .getDogsButton {
   display: inline-block;
   padding: 20px 40px; 
-  font-size: 20px; 
+  font-size: 30px; 
   color: black; 
   background-color: #f2d17f; 
   border-radius: 5px; 
   cursor: pointer; 
   transition: background-color 0.3s ease;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  }
+  
+  
  
-}
+
 .getDogsButton:hover {
   border-color: #d4af37; 
   transform: scale(1.05);
