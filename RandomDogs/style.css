@@ -105,6 +105,9 @@ button:focus-visible {
 .container{
   display: flex; flex-direction: row; width: 100vw
 }
+#getDogs{
+  margin: auto
+}
 
 .getDogsButton {
   display: inline-block;
@@ -122,6 +125,15 @@ button:focus-visible {
   transform: scale(1.05);
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
 }
-
-  
+#closeButton {
+  position: absolute;
+  color:red;
+  display: none; position: absolute; top: 0; right: 0;
+  border: none;
+  font-size: 20px;
+  background: none;
+ 
 }
+}
+  
+
